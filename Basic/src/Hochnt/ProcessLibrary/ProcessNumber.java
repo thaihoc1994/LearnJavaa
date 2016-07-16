@@ -20,7 +20,7 @@ public class ProcessNumber {
 		int []M = new int[10];
 		Random rd = new Random();
 		for (int i = 0; i < M.length; i++) {
-			M[i] = rd.nextInt(100);
+			M[i] = -50 + rd.nextInt(100);
 			System.out.println(M[i]);
 		}
 		
