@@ -1,6 +1,8 @@
 package hochnt.learn.model;
 
-public class KhachHang {
+import java.io.Serializable;
+
+public class KhachHang implements Serializable{
 	private String ma;
 	private String ten;
 	public String getMa() {
